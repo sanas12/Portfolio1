@@ -45,11 +45,15 @@ a {
 a:hover {
   text-decoration: none;
   width: 300px;
+  color: #F53163;
+
 }
 
 a:visited,
 a:active {
   text-decoration: none;
+  color: #B6666F;
+
 }
 
 a:focus {
@@ -450,4 +454,18 @@ p {
   h1 {
     font-size: 22px;
   }
+}
+.grid-item-img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  transition: transform 2s; /* Smooth transition */
+}
+
+.grid-item-img:hover {
+  transform: scale(0.8); /* Zoom out effect */
+}
+
+.grid-item-img1:hover {
+  transform: scale(0.8); /* Zoom out effect */
 }
