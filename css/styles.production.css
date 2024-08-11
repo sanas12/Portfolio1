@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-  background-color: rgb(149, 188, 203);
+  background-color: rgb(237, 243, 246);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -28,7 +28,7 @@ h1, h2 {
   padding-top: 50px;
 }
 #button{
-  color: rgb(232, 169, 92);
+  color: rgb(232, 92, 92);
   font-size: 18px;
   margin: 20px auto;
   padding: 10px 20px;
@@ -50,18 +50,18 @@ p {
 }
 
 a {
-  color: #ec6363;
+  color: #5f0000; /* Darker color for better contrast */
   transition: color 2s linear;
 }
 
 a:hover {
   text-decoration: none;
-  color: #F53163;
+  color: #4a0000; /* Slightly darker on hover */
 }
 
 a:visited, a:active {
   text-decoration: none;
-  color: #ec6363;
+  color: #4a0000; /* Slightly darker on hover */
 }
 
 a:focus {
@@ -86,7 +86,7 @@ a:focus {
 
 .navigation-list {
   list-style-type: none;
-  padding: 0;
+  padding: 10px;
   margin: 0;
 }
 
@@ -96,14 +96,24 @@ a:focus {
 }
 
 .navigation-list__item {
-  font-size: large;
-  background-color: #f3c8cd;
-  font-weight: 900;
-  margin: 20px auto;
-  padding: 10px 20px;
-  border-radius: 25px;
+  display: flex;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0;
+  text-align: center;
+  background-color: #357b70;
+  color: white;
 }
 
+/* Responsive Navigation */
+@media (max-width: 750px) {
+  .main-navigation {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
+ 
 /* Grid and Card Styles */
 .grid {
   display: grid;
@@ -227,8 +237,8 @@ button:hover, button:focus, .button:hover, .button:focus {
 }
 
 #button {
-  color: rgb(232, 169, 92);
-  font-size: 18px;
+  color: #d50084;
+    font-size: 18px;
   margin: 20px auto;
   padding: 10px 20px;
   border-radius: 25px;
