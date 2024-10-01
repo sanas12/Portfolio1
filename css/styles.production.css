@@ -36,10 +36,10 @@ header {
   white-space: nowrap;
 }
 .header_img {
-width: 100px;
+width: 50px;
 height: auto;
 margin-right: 20px;
-padding-left: 25px;
+padding-left: 10px;
 
 }
 #naming {
@@ -85,7 +85,7 @@ padding-left: 25px;
   width: 250px;
   margin-right: 50px;
   height: auto;
-  border-radius: 25%;
+  border-radius: 50%;
   border: 2px solid black;
 }
 .home-h1 {
@@ -97,10 +97,12 @@ padding-left: 25px;
   padding-top: 50px;
 }
 #button{
+  display: block;
+  text-align: center;
   color: rgb(232, 92, 92);
   font-size: 18px;
   margin: 20px auto;
-  padding: 10px 20px;
+  padding: 10px 50px;
   border-radius: 25px;
   border: 5px rgb(7, 7, 7);
 
