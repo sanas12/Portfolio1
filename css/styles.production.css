@@ -96,7 +96,7 @@ padding-left: 80px;
 
 .main-navigation a:hover {
   color: #ef233c;
-  font-size:100%;
+  font-size:30%;
 }
 .navigation-list__item--active a:visited {
   color: #33e356;
@@ -112,7 +112,6 @@ text-decoration: underline;
 }
 .home-h1 {
   font-family: "Lucida Console", "Courier New", monospace;
-
   color: blue;
   font-weight: 700;
   line-height: 30px;
